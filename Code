@@ -1,0 +1,38 @@
+to_do_list=[] #Made a empty to_do_list  
+while True:
+    print("\n MENU")
+    print("1. Add a task")
+    print("2.Mark as done a task")
+    print("3.Remove a task")
+    print("4.Exit")
+
+#Enter your choice of what preference you want to perform
+choice=eval(int("\n Enter the number for your preference:"))
+
+if (choice==):
+    {
+       task=input("Enter your task:")
+       to_do_list.append(task)
+       print("\n Task added successfully !")
+    }
+elif(choice==):
+    {
+
+    }
+elif(choice==):
+    {
+        
+    }
+elif(choice==3):
+    {
+       to_do_list.remove(task) 
+       print("\n The task is removed ")
+    }
+elif(choice==4):
+    {
+        print("\n Thankyou for visiting us..See you next time :) ")
+    }
+else
+    {
+        print("\n Ivalid choice, try again... ) ")
+    }
